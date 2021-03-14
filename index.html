@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+        <style type="text/css"> 
+		a{TEXT-DECORATION:none}
+<!--
+body,td,th {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+body {
+    text-align: center;
+    background-color: #444444;
+}
+
+.article-text {
+    width: 400px;
+    text-align: center;
+    margin: 0px auto 10px;
+    color: #FFF;
+}
+
+.article-name {
+    width: 400px;
+    text-align: center;
+    color: #000000;
+}
+
+.article-image {
+    margin: 2px 2px 2px 2px;
+}
+
+.article-image img {
+    width: 400px;
+}
+
+.article-image-big {
+    margin: 2px 2px 2px 2px;
+}
+
+.article-image-big img {
+    width: 1200px;
+}
+
+.article-badge img {
+    height: 50px;
+}
+
+.article-badge {
+    margin: 15px 2px 15px 2px;
+    text-align: center;
+}
+
+.article-title {
+    width: 400px;
+    text-align: left;
+    margin:0px auto 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4fa0f3;
+}
+
+.article {
+    width: 404px;
+    text-align: left;
+    margin:0px auto 40px;
+    padding: 0px 0px 0px 0px;
+    border-width: 1px 1px 1px 1px;
+    border-color: #e2e2e2;
+    border-style: solid;
+    background-color: white;
+}
+
+.article-big {
+    width: 1204px;
+    text-align: left;
+    margin:0px auto 40px;
+    padding: 0px 0px 0px 0px;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    background-color: white;
+}
+
+.article-text a {
+    color: #ffffff;
+}
+
+.article-text b {
+    width: 400px;
+    text-align: left;
+    margin: 0px auto 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+-->
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=0.8, minimum-scale=0.8, maximum-scale=0.8, user-scalable=no">
+        <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+        <script src="/tapfingersfiles/lazyelem.min.js" type="text/javascript"></script>
+        <script>
+            $(function(){
+                 lazyelem.listen();
+            });
+        </script>
+       
+      <link rel="shortcut icon" href="/tapfingersfiles/icon.ico" />
+      <link rel="bookmark" href="/tapfingersfiles/icon.ico" />
+    </head>
+
+<body>
+
+<div>
+  <p><img src="/tapfingersfiles/logo.png"/><br>
+            <br />
+            <font size="5" id="name"></font><br><br>
+    
+</div>
+        <div class="fb-like" data-href="https://twitter.com/tapfingers" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+<p><span class="article-image"><a id="privacy" href="/privacy-policy-zh.html" target="_blank" class="article-text"></a>| <a id="music" href="http://music.163.com/#/song?id=459968628" target="_blank" class="article-text"></a><a id="huangyunkun" href="http://www.huangyunkun.com" target="_blank" class="article-text"></a><a id="support" href="/support.html" target="_blank" class="article-text"></a> |<a id="language" href="javascript:changeLanguage()" class="article-text"></a></span></p>
+<p><br>
+</p>
+
+<div class="target">
+  
+<div class="article">
+ <div class="article-name">
+   <p><font key="name"></font></p>
+ </div>
+  <div class="article-image"><a key="iosid" href="" target="_blank"><img key="img" lazy-src="" 
+  data-original="/tapfingersfiles/loading.gif"/></a></div>    
+<div class="article-badge"><a key="iosid" href="" target="_blank">
+<img key="down" src="" data-original="/tapfingersfiles/loading.gif" width="140" height="50" /></a></div>
+</div>
+
+ </div>
+        
+<!-- app结束 -->
+        <div class="article-text"><span class="copyright">Copyright @ 2010-2021 Tap Fingers, Inc. All rights reserved.</span><br>
+        <br><a id="viewgame" href="https://itunes.apple.com/cn/developer/id1225078960" target="_blank"></a></div>
+
+<script type="text/javascript" src="data.js"></script>
+<script>
+			var language = (navigator.language || navigator.browserLanguage).toLowerCase();
+			var isEnglish=language.indexOf('zh')<0;
+			
+			function change(){
+				if(isEnglish){
+				    $(document).attr("title","Tap Fingers Free iphone Games");
+				    document.getElementById("name").innerText="Tap Fingers";
+				    //document.getElementById("music").innerText="Original Song";
+				    document.getElementById("language").innerText="中文";
+					//document.getElementById("huangyunkun").innerText="";
+					document.getElementById("support").innerText="Support";
+				    document.getElementById("privacy").innerText="Privacy Policy";
+					document.getElementById("privacy").setAttribute('href',"/privacy-policy.html");
+				    document.getElementById("viewgame").innerText="Check out all of our amazing games for iPhone and iPad and search for Tap Fingers in the AppStore search field.";
+				}else{
+					$(document).attr("title","Tap Fingers免费苹果手机游戏");
+				    document.getElementById("name").innerText="Tap Fingers";
+				   // document.getElementById("music").innerText="原创歌曲";
+					//document.getElementById("huangyunkun").innerText=" | 夜的孤行灯 | ";
+					document.getElementById("support").innerText="技术支持";
+				    document.getElementById("language").innerText="English";
+				    document.getElementById("privacy").innerText="隐私策略";
+					document.getElementById("privacy").setAttribute('href',"/privacy-policy-zh.html");
+				    document.getElementById("viewgame").innerText="查看我们所有的iPhone和iPad的惊人游戏，在AppStore的搜索字段中搜索Tap Fingers.";
+				}
+			}
+			
+			change();
+			
+				 var tar=$(".target");
+                 var ite=$(".article");
+                 ite.remove();
+                 ite.hide();
+                 ite.removeClass("hide");
+				 
+				 var items=[];
+				 
+		
+		function change2(isCreate){
+					 for(var i=0;i<ks.length;i++){
+						 var cpy;
+					     if(isCreate){
+						     cpy=ite.clone();
+							 items[i]=cpy;
+						 }else{
+							 cpy=items[i];
+							 }	 
+                     cpy.find("[key]").each(function(){
+                         var that=$(this);
+						 if(that[0].tagName=="A"){
+							 if(isEnglish){
+								   that.attr("href","https://itunes.apple.com/us/app/id"+ks[i][that.attr("key")]);
+								 }else{
+							       that.attr("href","https://itunes.apple.com/cn/app/id"+ks[i][that.attr("key")]);
+								 }
+					     }else if(that[0].tagName=="IMG"){
+							   var key=that.attr("key");
+							   if(key=="down"){
+								   if(isEnglish){
+									    that.attr("src","/tapfingersfiles/iosdown_en.png");
+									   }else{
+										   that.attr("src","/tapfingersfiles/iosdown.png");
+										   }
+							   }else{
+								   that.attr("lazy-src",ks[i][key]);
+								   }
+							 }else{
+                               that.text(ks[i][that.attr("key")]);
+							   if(isEnglish){
+								   that.text(ks[i][that.attr("key")+"_en"]);
+								 }else{
+							       that.text(ks[i][that.attr("key")]);
+								 }
+							 }
+                     })
+                     cpy.fadeIn();
+					 if(isCreate){
+						 tar.append(cpy);
+						 }
+                       }
+					 }
+		
+		change2(true);
+		
+		function changeLanguage(){
+	       isEnglish=!isEnglish;
+		   change();
+		   change2(false);
+        }
+        </script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1276410266'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s96.cnzz.com/stat.php%3Fid%3D1276410266%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+    </body>
+</html>
+
