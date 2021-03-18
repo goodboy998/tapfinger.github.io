@@ -1,3 +1,3 @@
 ﻿var ks=[
-  {name:"怪兽泡泡龙",name_en:"Monster Bubble",img:"/games/monsterbubble-ad.jpg",iosid:1445644235}
+  {name:"经典怪物泡泡消除",name_en:"Monster Pop Bubble Shooter",img:"/games/monsterbubble-ad.jpg",iosid:1558460271}
 ];
