@@ -121,7 +121,7 @@ body {
     
 </div>
         <div class="fb-like" data-href="https://twitter.com/tapfingers" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-<p><span class="article-image"><a id="language" href="javascript:changeLanguage()" class="article-text"></a></span></p>
+<p><span class="article-image"><a id="privacy" href="/privacy-policy-zh.html" target="_blank" class="article-text"></a>| <a id="support" href="/support-zh.html" target="_blank" class="article-text"></a> |<a id="language" href="javascript:changeLanguage()" class="article-text"></a></span></p>
 <p><br>
 </p>
 
@@ -140,7 +140,7 @@ body {
  </div>
         
 <!-- app结束 -->
-        <div class="article-text"><span class="copyright">Copyright @ 2010-2022 TapFingers Studio, Inc. All rights reserved.</span><br>
+        <div class="article-text"><span class="copyright">Copyright @ 2010-2023 TapFingers Studio, Inc. All rights reserved.</span><br>
         <a id="privacy" href="/privacy-policy-zh.html" target="_blank" class="article-text"></a>
         <br><a id="viewgame" href="https://itunes.apple.com/cn/developer/idXXXXXXXX" target="_blank"></a></div>
 
@@ -156,6 +156,8 @@ body {
 				    document.getElementById("language").innerText="中文";
 				    document.getElementById("privacy").innerText="Privacy Policy";
 					document.getElementById("privacy").setAttribute('href',"/privacy-policy.html");
+					document.getElementById("support").innerText="Support";
+					document.getElementById("support").setAttribute('href',"/support.html");
 				    document.getElementById("viewgame").innerText="Check out all of our amazing games for iPhone and iPad and search for TapFingers Studio in the AppStore search field.";
 				}else{
 					$(document).attr("title","TapFingers Studio免费苹果手机游戏");
@@ -163,6 +165,8 @@ body {
 				    document.getElementById("language").innerText="English";
 				    document.getElementById("privacy").innerText="隐私策略";
 					document.getElementById("privacy").setAttribute('href',"/privacy-policy-zh.html");
+					document.getElementById("support").innerText="技术支持";
+					document.getElementById("support").setAttribute('href',"/support-zh.html");
 				    document.getElementById("viewgame").innerText="查看我们所有的iPhone和iPad的惊人游戏，在AppStore的搜索字段中搜索TapFingers Studio.";
 				}
 			}
