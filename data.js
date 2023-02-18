@@ -12,7 +12,6 @@
   {name:"飞行棋跳棋经典方块拼图",name_en:"Ludo Classic Block Puzzle",img:"/games/ludoclassicblockpuzzle-ad.jpg",iosid:1658222410},
   {name:"经典益智方块拼图",name_en:"Block Fit Puzzle",img:"/games/blockfitpuzzle-ad.jpg",iosid:6444055995},
   {name:"经典记忆游戏连连看2048",name_en:"Memory 2048",img:"/games/memory2048-ad.jpg",iosid:6444296487},
-  {name:"解密方块连连看飞行棋跳棋井字棋",name_en:"Onet Connect Wood Block Puzzle",img:"/games/onetconnectwoodblockpuzzle-ad.jpg",iosid:1561426939},
   {name:"点指连连看—经典小游戏",name_en:"Tap Finger Fruit Link Speed",img:"/games/tapfingerfruitlinkspeed-ad.jpg",iosid:1618936673},
   {name:"卡罗姆—经典小游戏",name_en:"Tap Fingers Pocket Carrom",img:"/games/tapfingerspocketcarrom-ad.jpg",iosid:1616134844}
 ];
